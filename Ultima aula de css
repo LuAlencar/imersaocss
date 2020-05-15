@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <meta name="viemport" content="width=device-width, initial-scale=1.0">
+    <title>Luana</title>
+    <link rel="stylesheet" href="C:\Users\ALASP\Desktop\565565aa">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4abd70e67a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="#sobre">Sobre</a></li>
+            <li> <a href="#projetos">Projetos</a></li>
+            <li> <a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="titulo">
+        <h1 class="site-title">Luana Alencar</h1>
+        <h2 class="site-subtitle">Frontend developer Jr</h2>
+        <h2 class="site-subtitle">Estudante</h2>
+    </div>
+    
+
+
+</header>
+<section class="sobre">
+    <h2>Sobre</h2>
+    
+    <figure>
+        <img src="https://scontent.fgru6-1.fna.fbcdn.net/v/t31.0-8/28238334_1880385671973192_3317637923226306866_o.jpg?_nc_cat=106&_nc_sid=84a396&_nc_eui2=AeEck9aUZbPyllXn3_Qp-l0vRWc_IJKqfNZFZz8gkqp81ovGyFu49dvG5sTHuxUpLnyD84etLxUMf2klYhELAqP2&_nc_ohc=DQD0vNDxIAUAX8ooZAD&_nc_ht=scontent.fgru6-1.fna&oh=65c9bb4fec85a256ed7f5eb858bcdf7f&oe=5EE299F8" alt="Luana Alencar">
+    </figure>
+
+     <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem
+        atque architecto, odit doloremque consectetur vero! Aut fugit neque
+        sequi id non rerum facilis incidunt explicabo. Officia beatae vitae
+        laudantium!
+      </p>
+
+      <p>
+        Tenetur dicta rem ut aliquid quo eos non expedita impedit. Ipsa sapiente
+        corrupti iusto eum similique voluptatum magni velit sit ab, vitae quas,
+        perspiciatis excepturi, vel quaerat itaque dicta repudiandae?
+      </p>
+
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+
+      <p>
+        Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css"> Imersão CSS da Alura</a> ;)
+    </p>
+
+</section>
+
+<section class="portfolio" id="projetos">
+  <h2>Projetos</h2>
+
+<div class="grid">
+
+<figure>
+    <img class="img-portfolio" src="C:\Users\ALASP\Desktop\Alura\imersaoCSS-aula3\img\Alura.png" alt="Alura">
+    <figcaption>Alura</figcaption>
+  </figure>
+  <figure>
+    <img class="img-portfolio" src="C:\Users\ALASP\Desktop\Alura\imersaoCSS-aula3\img\caelum.png" alt=">Caelum">
+    <figcaption>Caelum</figcaption>
+  </figure>
+  <figure>
+    <img class="img-portfolio" src="C:\Users\ALASP\Desktop\Alura\imersaoCSS-aula3\img\hispters.png" alt="hispters.tech">
+    <figcaption>Hispters.tech</figcaption>
+  </figure>
+  <figure>
+    <img class="img-portfolio" src="C:\Users\ALASP\Desktop\Alura\imersaoCSS-aula3\img\likeaboss.png" alt="likeaboss">
+    <figcaption>Like a boss </figcaption>
+  </figure>
+<figure>
+    <img class="img-portfolio" src="C:\Users\ALASP\Desktop\Alura\imersaoCSS-aula3\img\hobby.png" alt="handstand">
+    <figcaption>handstand</figcaption>
+</figure>
+    
+</div>
+  
+</section>
+
+<section class="contato" id="contato">
+    <h2>Contato</h2>
+    <div class="grid icons">
+        <a target="blank" href="https://linkedin.com/in/luanaalencar">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:luanatojob@yahoo.com.br">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    
+</section>
+
+</body>
+
+
+    
+<style>
+
+/*Serve para deixar o menu em toda tela, sem espaços em volta*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    body{
+
+
+            background: pink;
+            background-size: 100vh;
+            font-family: 'Source Code Pro', monospace;
+            height: 100vh;
+            font-size: 12px;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+  body{
+    font-size: 14px;
+  }    
+
+}
+/* breakpoint */
+@media (min-width: 600px) {
+  body{
+    font-size: 18px;
+  } 
+
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu{
+    background: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1
+
+}
+
+.menu ul{
+display: flex;
+justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 1s, color 1s;
+
+}
+
+.menu a:active,
+.menu a:hover{
+    background-color: pink;
+    color: white;
+}
+
+a {
+  color: teal;  
+  text-decoration: none;  
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    transform: scale(0.2) translateY(50vh);
+    opacity:0;
+    animation: linear 2s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo{
+from{
+
+    transform: scale(0.2) translateY(50vh);
+    opacity:0;
+}    
+to{
+
+    transform: scale(1) translateY(0vh);
+    opacity:1;
+}
+
+}
+.site-subtitle,
+.site-title{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-title{
+    font-size: 4em;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.site-subtitle{
+    font-style: italic; 
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.8em
+}
+
+.sobre,
+.contato,
+.portfolio{
+    padding: 2em;
+    min-height: 100vh;
+}
+
+/*deixa o texto alinhado do tamanho da tela, junto com as imagens*/
+@media(min-width: 1200px){
+.sobre,
+.contato,
+.portfolio{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sobre,h2;
+.contato,h2;
+.portfolio h2{
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+    margin-bottom:1.5em;
+    font-size: 2em; 
+}
+
+.sobre p{
+    color: white;
+    margin-bottom:1.4em; 
+    text-indent: 1.4em;
+    text-align: justify;
+}
+
+
+.portfolio .grid{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 240px 240px;
+
+}
+
+@media(min-width: 560px){
+.portfolio .grid{
+    grid-template-columns: 240px 240px;
+
+}
+
+/* para não ficar repetindo os numeros é so colocar REPEAT (3,240PX) */
+@media(min-width: 880px){
+.portfolio .grid{
+    grid-template-columns: 240px 240px 240px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.portfolio figure{
+    text-align: center;
+}
+
+.img-portfolio{
+    height: 180px;
+    width: 240px;
+    object-fit: cover;
+    object-position: left; bottom; 
+    transition: transform 500ms;
+    
+    
+}
+
+.img-portfolio:hover{
+     transform: scale(1.2)   
+
+}
+
+.contato .icons{
+text-align: center;
+}
+
+.contato a{
+    color: white;
+    font-size: 4em;
+    transition: text-shadow 2s;
+
+}
+
+.contato a:active,
+.contato a:hover{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(73,247,166);
+}
+
+</style>
+
+   </html> 
